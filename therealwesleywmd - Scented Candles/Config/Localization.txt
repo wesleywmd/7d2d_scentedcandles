@@ -1,0 +1,21 @@
+﻿Key,File,Type,english
+scentedCandleAloe,items,Item,Blueberry Aloe Scented Candle
+scentedCandleAloeDesc,items,Item,This soothing Blueberry Aloe scent increases your healing rate.
+buffScentedCandleAloeAOEEffectName,buffs,Buff,Blueberry Aloe Scent
+buffScentedCandleAloeAOEEffectDesc,buffs,Buff,Increased Health Regen
+scentedCandleChrysanthemum,items,Item,Chrysanthemum Scented Candle
+scentedCandleChrysanthemumDesc,items,Item,This weird but strangely settling scent increases efficient digestion.
+buffScentedCandleChrysanthemumAOEEffectName,buffs,Buff,Chrysanthemum Scent
+buffScentedCandleChrysanthemumAOEEffectDesc,buffs,Buff,Exertion will not make you hungry and thirsty as quickly.
+scentedCandleCoffee,items,Item,Coffee Scented Candle
+scentedCandleCoffeeDesc,items,Item,Invigorating and stimulating coffee scent to increase your stamina regen.
+buffScentedCandleAloeAOEEffectName,buffs,Buff,Coffee Scent
+buffScentedCandleAloeAOEEffectDesc,buffs,Buff,Increased Stamina Regen
+scentedCandlePumpkin,items,Item,Pumpkin Scented Candle
+scentedCandlePumpkinDesc,items,Item,This hardy autumn scent makes you feel strong.
+buffScentedCandleAloeAOEEffectName,buffs,Buff,Pumpkin Scent
+buffScentedCandleAloeAOEEffectDesc,buffs,Buff,Increased Damage
+scentedCandleZombie,items,Item,Death Scented Candle
+scentedCandleZombieDesc,items,Item,Smells like death. Go figure. Not sure why you want to smell like death.
+buffScentedCandleAloeAOEEffectName,buffs,Buff,Death Scent
+buffScentedCandleAloeAOEEffectDesc,buffs,Buff,Incoming!

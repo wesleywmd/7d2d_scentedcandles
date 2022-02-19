@@ -1,0 +1,108 @@
+<scentedcandles>
+    <append xpath="/buffs">
+
+        <!-- scentedCandleAloe -->
+        <buff name="buffScentedCandleAloeAOE" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffScentedCandleAloeAOEEffect"/>
+            </effect_group>
+        </buff>
+        <buff name="buffScentedCandleAloeAOEEffect"
+              name_key="buffScentedCandleAloeAOEEffectName"
+              description_key="buffScentedCandleAloeAOEEffectDesc"
+              icon="ui_game_symbol_campfire" icon_color="0,128,255" >
+            <stack_type value="replace"/>
+            <duration value="2"/>
+            <effect_group>
+                <passive_effect name="HealthChangeOT" operation="base_add" value="1"/>
+            </effect_group>
+        </buff>
+
+        <!-- scentedCandleChrysanthemum -->
+        <buff name="buffScentedCandleChrysanthemumAOE" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffScentedCandleChrysanthemumAOEEffect"/>
+            </effect_group>
+        </buff>
+        <buff name="buffScentedCandleChrysanthemumAOEEffect"
+              name_key="buffScentedCandleChrysanthemumAOEEffectName"
+              description_key="buffScentedCandleChrysanthemumAOEEffectDesc"
+              icon="ui_game_symbol_campfire" >
+            <stack_type value="replace"/>
+            <duration value="2"/>
+            <effect_group>
+                <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.15"/>
+                <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.15"/>
+            </effect_group>
+        </buff>
+
+        <!-- scentedCandleCoffee -->
+        <buff name="buffScentedCandleCoffeeAOE" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffScentedCandleCoffeeAOEEffect"/>
+            </effect_group>
+        </buff>
+        <buff name="buffScentedCandleCoffeeEffect"
+              name_key="buffScentedCandleCoffeeEffectName"
+              description_key="buffScentedCandleCoffeeEffectDesc"
+              icon="ui_game_symbol_campfire" >
+            <stack_type value="replace"/>
+            <duration value="2"/>
+            <effect_group>
+                <passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1"/>
+            </effect_group>
+        </buff>
+
+        <!-- scentedCandlePumpkin -->
+        <buff name="buffScentedCandlePumpkinAOE" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffScentedCandlePumpkinAOEEffect"/>
+            </effect_group>
+        </buff>
+        <buff name="buffScentedCandlePumpkinAOEEffect"
+              name_key="buffScentedCandlePumpkinAOEEffectName"
+              description_key="buffScentedCandlePumpkinAOEEffectDesc"
+              icon="ui_game_symbol_campfire" >
+            <stack_type value="replace"/>
+            <duration value="2"/>
+            <effect_group>
+                <passive_effect name="DamageBonus" operation="base_add" value=".5"/>
+                <passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+            </effect_group>
+        </buff>
+
+        <!-- scentedCandleZombie -->
+        <buff name="buffScentedCandleZombieAOE" hidden="true">
+            <stack_type value="ignore"/>
+            <duration value=".1"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffScentedCandleZombieAOEEffect"/>
+            </effect_group>
+        </buff>
+        <buff name="buffScentedCandleZombieAOEEffect"
+              name_key="buffScentedCandleZombieAOEEffectName"
+              description_key="buffScentedCandleZombieAOEEffectDesc"
+              icon="ui_game_symbol_campfire" >
+            <stack_type value="replace"/>
+            <duration value="2"/>
+            <effect_group>
+                <!-- This candle doesn't need any passive effects to work. the buff is to show the icon in the statuses when in range. -->
+            </effect_group>
+        </buff>
+
+    </append>
+</scentedcandles>
+
+
+
+
+
+

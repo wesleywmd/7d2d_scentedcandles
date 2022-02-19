@@ -1,0 +1,60 @@
+<scentedcandles>
+    <append xpath="/blocks">
+
+        <block name="scentedCandleWallLightMaster">
+            <property name="Extends" value="candleWallLightPlayer"/>
+            <property name="Class" value="Campfire"/>
+            <property name="OpenSound" value="campfire_open"/>
+            <property name="CloseSound" value="campfire_close"/>
+            <property name="CraftSound" value="campfire_cook_click"/>
+            <property name="CraftCompleteSound" value="campfire_complete_item"/>
+            <property name="WorkstationIcon" value="ui_game_symbol_fire"/>
+            <property name="WorkstationJournalTip" value="workbenchTip"/>
+            <property name="WorkstationWindow" value="workstation_scentedCandle"/>
+            <drop event="Destroy" name="candle" count="0"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            </property>
+        </block>
+
+        <block name="scentedCandleWallLightAloe">
+            <property name="Extends" value="scentedCandleWallLightMaster"/>
+            <property name="ActiveRadiusEffects" value="buffScentedCandleAloeAOE(7)"/>
+            <property name="CanPickup" value="true" param1="scentedCandleAloe"/>
+            <drop event="Destroy" name="scentedCandleAloe" count="1"/>
+        </block>
+
+        <block name="scentedCandleWallLightChrysanthemum">
+            <property name="Extends" value="scentedCandleWallLightMaster"/>
+            <property name="ActiveRadiusEffects" value="buffScentedCandleChrysanthemumAOE(12)"/>
+            <property name="CanPickup" value="true" param1="scentedCandleChrysanthemum"/>
+            <drop event="Destroy" name="scentedCandleChrysanthemum" count="1"/>
+        </block>
+
+        <block name="scentedCandleWallLightCoffee">
+            <property name="Extends" value="scentedCandleWallLightMaster"/>
+            <property name="ActiveRadiusEffects" value="buffScentedCandleCoffeeAOE(12)"/>
+            <property name="CanPickup" value="true" param1="scentedCandleCoffee"/>
+            <drop event="Destroy" name="scentedCandleCoffee" count="1"/>
+        </block>
+
+        <block name="scentedCandleWallLightPumpkin">
+            <property name="Extends" value="scentedCandleWallLightMaster"/>
+            <property name="ActiveRadiusEffects" value="buffScentedCandlePumpkinAOE(10)"/>
+            <property name="CanPickup" value="true" param1="scentedCandlePumpkin"/>
+            <drop event="Destroy" name="scentedCandlePumpkin" count="1"/>
+        </block>
+
+        <block name="scentedCandleWallLightZombie">
+            <property name="Extends" value="scentedCandleWallLightMaster"/>
+            <property name="ActiveRadiusEffects" value="buffScentedCandleZombieAOE(20)"/>
+            <property name="CanPickup" value="true" param1="scentedCandleZombie"/>
+            <drop event="Destroy" name="scentedCandleZombie" count="1"/>
+            <property name="HeatMapStrength" value="5000"/>
+            <property name="HeatMapTime" value="5000000"/>
+            <property name="HeatMapFrequency" value="1000000"/>
+        </block>
+
+    </append>
+</scentedcandles>

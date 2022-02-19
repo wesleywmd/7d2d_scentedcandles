@@ -1,0 +1,35 @@
+<scentedcandles>
+	<append xpath="/recipes">
+
+		<recipe name="scentedCandleAloe" count="1" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="resourceCropAloeLeaf" count="6"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+		</recipe>
+
+		<recipe name="scentedCandleChrysanthemum" count="1" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="resourceCropChrysanthemumPlant" count="6"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+		</recipe>
+
+		<recipe name="scentedCandleCoffee" count="1" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="resourceCropCoffeeBeans" count="6"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+		</recipe>
+
+		<recipe name="scentedCandlePumpkin" count="1" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropPumpkin" count="4"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+		</recipe>
+
+		<recipe name="scentedCandleZombie" count="1" craft_time="30" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodRottingFlesh" count="12"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceAnimalFat" count="2"/>
+		</recipe>
+
+	</append>
+</scentedcandles>

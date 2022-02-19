@@ -1,0 +1,64 @@
+<scentedcandles>
+	<append xpath="/items">
+
+		<item name="scentedCandleMaster">
+			<property name="Extends" value="candle"/>
+			<property name="CustomIcon" value="candle"/>
+			<property class="Action1">
+				<property name="Class" value="PlaceAsBlock"/>
+				<property name="Delay" value=".5"/>
+			</property>
+		</item>
+
+		<!-- healing aoe -->
+		<item name="scentedCandleAloe">
+			<property name="Extends" value="scentedCandleMaster"/>
+			<property name="DescriptionKey" value="scentedCandleAloeDesc"/>
+			<property name="CustomIconTint" value="55d98f"/>
+			<property class="Action1">
+				<property name="Blockname" value="scentedCandleWallLightAloe"/>
+			</property>
+		</item>
+
+		<!-- digestion aoe -->
+		<item name="scentedCandleChrysanthemum">
+			<property name="Extends" value="scentedCandleMaster"/>
+			<property name="DescriptionKey" value="scentedCandleChrysanthemumDesc"/>
+			<property name="CustomIconTint" value="eb5252"/>
+			<property class="Action1">
+				<property name="Blockname" value="scentedCandleWallLightChrysanthemum"/>
+			</property>
+		</item>
+
+		<!-- stamina aoe -->
+		<item name="scentedCandleCoffee">
+			<property name="Extends" value="scentedCandleMaster"/>
+			<property name="DescriptionKey" value="scentedCandleCoffeeDesc"/>
+			<property name="CustomIconTint" value="875a45"/>
+			<property class="Action1">
+				<property name="Blockname" value="scentedCandleWallLightCoffee"/>
+			</property>
+		</item>
+
+		<!-- crafting speed aoe -->
+		<item name="scentedCandlePumpkin">
+			<property name="Extends" value="scentedCandleMaster"/>
+			<property name="DescriptionKey" value="scentedCandlePumpkinDesc"/>
+			<property name="CustomIconTint" value="d1703b"/>
+			<property class="Action1">
+				<property name="Blockname" value="scentedCandleWallLightPumpkin"/>
+			</property>
+		</item>
+
+		<!-- zombie attraction aoe -->
+		<item name="scentedCandleZombie">
+			<property name="Extends" value="scentedCandleMaster"/>
+			<property name="DescriptionKey" value="scentedCandleZombieDesc"/>
+			<property name="CustomIconTint" value="88b89c"/>
+			<property class="Action1">
+				<property name="Blockname" value="scentedCandleWallLightZombie"/>
+			</property>
+		</item>
+
+	</append>
+</scentedcandles>
